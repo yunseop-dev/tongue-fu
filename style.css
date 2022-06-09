@@ -1,0 +1,134 @@
+html {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+div, section, header, footer, p, h1, h2 {
+	box-sizing: border-box;
+}
+
+a {
+	color: royalblue;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.header {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.page {
+	font-size: 3rem;
+}
+
+.page01:before {
+	content: '아 짜증나!';
+}
+
+.page02:before {
+	content: 'Tongue-Fu?';
+}
+
+.page03:before {
+	content: '#1 층간소음';
+}
+
+.page04:before {
+	content: '#2 무례한 아이스크림 가게 직원';
+}
+
+.page05:before {
+	content: '#3 사람을 얻는 대화법';
+}
+
+.do-not:before {
+	content: '하지 말아야 할 말과 행동';
+}
+
+.to-do:before {
+	content: '해야 할 말과 행동';
+}
+
+.global-width {
+	max-width: 620px;
+	margin: auto;
+	padding: 0 1rem;
+}
+
+.scroll-graphic {
+	position: sticky;
+	top: 0;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.graphic-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: 0.5s;
+	will-change: opacity;
+}
+
+.visible {
+	opacity: 1;
+}
+
+.scene-img {
+	max-height: 100vh;
+}
+
+.scroll-text {
+	position: relative;
+	padding-bottom: 1px;
+}
+
+.step {
+	margin-bottom: 60vh;
+	background: rgba(255, 255, 255, 0.8);
+	border-radius: 10px;
+	padding: 0.5rem 1rem;
+	box-shadow: rgba(0, 0, 0, 0.3) 0 0 3px;
+}
+
+.bird {
+	position: absolute;
+	left: 0;
+	bottom: 70%;
+	width: 100px;
+	transform: translateX(-100%);
+	transition: 1.5s 0.5s linear;
+}
+
+[data-index="5"] .bird {
+	left: 30%;
+	bottom: 30%;
+}
+
+.global-footer {
+	padding: 2rem 0;
+	text-align: center;
+}
+
+.strikethrough {
+	text-decoration: line-through;
+}
+
+.text-center {
+	text-align: center;
+}
