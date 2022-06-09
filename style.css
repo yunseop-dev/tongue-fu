@@ -31,7 +31,7 @@ img {
 }
 
 .page01:before {
-	content: '아 짜증나!';
+	content: 'Oh, I\'m so annoying!';
 }
 
 .page02:before {
@@ -39,23 +39,23 @@ img {
 }
 
 .page03:before {
-	content: '#1 층간소음';
+	content: '#1 noise between floors';
 }
 
 .page04:before {
-	content: '#2 무례한 아이스크림 가게 직원';
+	content: '#2 rude ice cream shop staff';
 }
 
 .page05:before {
-	content: '#3 사람을 얻는 대화법';
+	content: '#3 How to get people';
 }
 
 .do-not:before {
-	content: '하지 말아야 할 말과 행동';
+	content: 'Saying and doing things you shouldn\'t do';
 }
 
 .to-do:before {
-	content: '해야 할 말과 행동';
+	content: 'What to say and what to do'
 }
 
 .global-width {
